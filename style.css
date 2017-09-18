@@ -1,0 +1,26 @@
+{
+	margin: 0;
+	padding: 0;
+}html,
+body
+{
+	height: 100%;
+	width: 100%;
+	background: url('http://nfos.org.pl/wp-content/uploads/2016/09/las.jpg');
+	background-size: 100% 100%;
+	background-repeat: repeat;
+}
+.bgtop
+{
+	background: url('http://rzeszow.rdos.gov.pl/files/karuzele/1435/RDOS_rzeszow_TOP_03_C_Korkosz_1_image_carousel_background.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.post 
+{
+	
+	background-image: url('post1.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
