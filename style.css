@@ -6,9 +6,8 @@ body
 {
 	height: 100%;
 	width: 100%;
-	background: url('http://nfos.org.pl/wp-content/uploads/2016/09/las.jpg');
-	background-size: 100% 100%;
-	background-repeat: repeat;
+	/* This pattern is downloaded from www.subtlepatterns.com If you need more, that's where to get'em.*/
+	background-image: url('pictures/shattered.png');
 }
 .bgtop
 {
@@ -19,8 +18,6 @@ body
 
 .post 
 {
-	
-	background-image: url('post1.jpg');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
