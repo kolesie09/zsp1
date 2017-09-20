@@ -1,8 +1,8 @@
 {
-	margin: 0;
-	padding: 0;
-}html,
-body
+	margin:0;
+	padding:0;
+}html
+,body
 {
 	height: 100%;
 	width: 100%;
@@ -11,13 +11,101 @@ body
 }
 .bgtop
 {
-	background: url('http://rzeszow.rdos.gov.pl/files/karuzele/1435/RDOS_rzeszow_TOP_03_C_Korkosz_1_image_carousel_background.jpg');
+	background: url('pictures/bg1.jpg');
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-size: 100%;
+	background-position: center;
+}
+
+.h-35
+{
+	height: 35%;
+}
+
+
+/*------------ POST ------------*/
+.h-20
+{
+	height: 20%;
+}
+.h-80
+{
+	height: 80%;
+}
+
+.posttitle > a
+{
+	color: black;
+	transition: 0.3s;
+}
+
+.posttitle > a:hover
+{
+	color: grey;
+	text-decoration: none;
+}
+
+.container-post
+{
+	padding: 0.55rem 0.55rem; 
+}
+
+.postall
+{
+	margin-bottom: 2%;
+}
+
+.postimg
+{
+	padding: 0.45rem 0.25rem; 
+	background-color: rgba(255,255,255,0.35);
+	border-radius: 5px;
+}
+
+.posttitle
+{
+	padding: 0.25rem 0.25rem; 
+
 }
 
 .post 
 {
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	padding: 0.25rem 0.25rem; 
+	background-color: rgba(255,255,255,0.35);
+	border-radius: 5px;
+}
+
+.post > .btn:hover
+{
+	background-color: rgba(0,120,255,0.5);
+	border: 1px solid #0078FF;
+}
+
+/*------------ MENU ------------*/
+.menu > a:hover
+{
+	color: white;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+.menu > a
+{
+	color: black;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+.menu
+{
+	background-color: rgba(255,255,255,0.35);
+	margin-bottom: 2%;
+	border-radius: 5px;
+	transition: 0.2s;
+}
+
+.menu:hover
+{
+	background-color: rgba(0,120,255,0.5);
+	border: 1px solid #0078FF;
 }
